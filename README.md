@@ -62,7 +62,7 @@ The app demonstrates persistent alarm scheduling, reboot resilience, system serv
 ## ▶️ How to Run
 
 1. Clone the repository
-2. Open the `mobileApp` folder in Android Studio
+2. Open this repository root in Android Studio
 3. Sync Gradle
 4. Run on physical device or emulator
 
@@ -82,19 +82,19 @@ The app demonstrates persistent alarm scheduling, reboot resilience, system serv
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](mobileApp/Screenshots/Homescreen.jpg)
+![Home Screen](Screenshots/Homescreen.jpg)
 
 ### ⏰ Active Alarm Screen
-![Active Alarm](mobileApp/Screenshots/ActiveAlarm.jpg)
+![Active Alarm](Screenshots/ActiveAlarm.jpg)
 
 ### ✏️ Set Alarm Title
-![Set Title](mobileApp/Screenshots/Set_title.jpg)
+![Set Title](Screenshots/Set_title.jpg)
 
 ### 🔄 Update Alarm
-![Update Alarm](mobileApp/Screenshots/Update.jpg)
+![Update Alarm](Screenshots/Update.jpg)
 
 ### 🗑 Swipe to Delete with Undo
-![Undo Delete](mobileApp/Screenshots/Undo_delete.jpg)
+![Undo Delete](Screenshots/Undo_delete.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8080
 
 Docs: http://127.0.0.1:8080/docs
 
-Set `api.base.url` in `mobileApp/local.properties` to `http://10.0.2.2:8080/` for the emulator, or `http://YOUR_LAN_IP:8080/` for a phone on the same Wi‑Fi. Then register and log in.
+Set `api.base.url` in `local.properties` to `http://10.0.2.2:8080/` for the emulator, or `http://YOUR_LAN_IP:8080/` for a phone on the same Wi‑Fi. Then register and log in.
 
 ### Endpoints
 

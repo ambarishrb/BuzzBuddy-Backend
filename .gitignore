@@ -10,13 +10,9 @@
 local.properties
 *.apk
 *.aab
+app/build/
 app/release/
-mobileApp/.gradle/
-mobileApp/local.properties
-mobileApp/build/
-mobileApp/app/build/
-mobileApp/captures/
-mobileApp/app/release/
+app/.gradle/
 *-playstore.png
 
 # Signing & deployment artifacts (never commit)
